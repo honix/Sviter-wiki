@@ -41,6 +41,7 @@ Agents do the work. You stay in control. Git handles history under the hood.
 
 A few examples of how Sviter can help:
 
+- **Spec-Driven Development** — Write specs in wiki, AI keeps docs and code in sync
 - **Dev Teams** — Devs ask questions, writers update docs, git stays hidden
 - **Book Authors** — Chapters as pages, AI checks consistency, full draft history
 - **Research** — Connect ideas across notes, AI helps cross-reference
