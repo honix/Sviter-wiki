@@ -9,9 +9,10 @@ Understanding how Sviter works under the hood.
 A **page** is a file in the wiki. Pages can be organized in folders.
 
 Sviter supports three page types:
+
 - **Markdown** (`.md`) — Text, docs, notes
 - **Data** (`.csv`) — Tables and structured data
-- **View** (`.tsx`) — Custom React components (e.g., [kanban boards](agents/examples/kanban.tsx))
+- **View** (`.tsx`) — Custom React components (e.g., [kanban boards](agents/examples/kanban.tsx) example)
 
 Every page is stored in git. No database, no metadata files — just files tracked by git.
 
@@ -24,6 +25,7 @@ When you edit a page, Sviter commits the change automatically.
 Currently Sviter supports **guest users** — no login required to start.
 
 **Planned:**
+
 - User accounts and profiles
 - @mentions so agents can notify specific users
 - Agents asking users directly for domain knowledge
@@ -35,6 +37,7 @@ Currently Sviter supports **guest users** — no login required to start.
 The `agents/` folder is the **command center** for AI behavior. Users can edit these files to customize how agents work.
 
 **Planned:**
+
 - Scheduler — run agents on a schedule
 - Agent roles — different agents for different tasks (librarian, reviewer, etc.)
 
@@ -45,6 +48,7 @@ The `agents/` folder is the **command center** for AI behavior. Users can edit t
 The assistant lives in the right panel. It's **read-only** — it can search and read pages but cannot edit them directly.
 
 **What it can do:**
+
 - Search pages by name (`glob`)
 - Search content (`grep`)
 - Read full page content
@@ -52,6 +56,7 @@ The assistant lives in the right panel. It's **read-only** — it can search and
 - Spawn worker threads
 
 **What it cannot do:**
+
 - Edit pages directly
 - Delete pages
 - Make changes without your approval
@@ -63,6 +68,7 @@ The assistant lives in the right panel. It's **read-only** — it can search and
 When you ask the assistant to make changes, it spawns a **worker thread**.
 
 A thread is an autonomous AI agent that:
+
 1. Gets a **goal** (e.g., "Fix typos on this page")
 2. Works on its own **git branch**
 3. Has **write access** to pages
@@ -93,12 +99,12 @@ thread/<name>/<timestamp>
 For example: `thread/fix-typos/1704067200`
 
 This means:
+
 - Your main content is **never at risk**
 - Multiple threads can work simultaneously
 - You review changes before they merge
 
-When you **Accept**, the branch merges to main.
-When you **Reject**, the branch is deleted.
+When you **Accept**, the branch merges to main. When you **Reject**, the branch is deleted.
 
 All this branch management is hidden — you just click Accept or Reject.
 
@@ -122,13 +128,7 @@ This workflow keeps humans in control while letting AI do the heavy lifting.
 
 You never have to use git directly, but here's what happens:
 
-| Action | Git Operation |
-|--------|--------------|
-| Edit a page | `git commit` on current branch |
-| Spawn thread | `git checkout -b thread/...` |
-| Thread edits | `git commit` on thread branch |
-| Accept | `git merge` to main |
-| Reject | `git branch -D` |
+| Action | Git Operation | |--------|--------------| | Edit a page | `git commit` on current branch | | Spawn thread | `git checkout -b thread/...` | | Thread edits | `git commit` on thread branch | | Accept | `git merge` to main | | Reject | `git branch -D` |
 
 All history is preserved. You can always go back.
 
