@@ -23,6 +23,8 @@ Sviter bridges this gap:
 - **Git hidden** — All the power, none of the complexity
 - **Open source** — FSL-1.1 license (free for production use, no competing products for 2 years, then Apache 2.0)
 - **Pluggable LLM** — Claude Agent SDK or OpenRouter out of the box, easy to add more
+- **On-demand data views** — Create custom React components (.tsx) to visualize CSV data with interactive views like [kanban boards](agents/examples/kanban.tsx)
+
 
 ## Agents
 
