@@ -12,7 +12,6 @@ Click on any page in the left panel. Click the **Edit**
 
 1. Click the **Edit**
 2. Edit the text below — add your name or a word
-3. Click **Save**
 
 > Hello, I am learning Sviter! My name is NOBEL.
 
