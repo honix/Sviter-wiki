@@ -15,7 +15,7 @@ Click on any page in the left panel. Click the **Edit**
 
 > Hello, I am learning Sviter! My name is \__\_.
 
-Your changes are saved automatically. If another user is viewing this page, they see your changes in real-time — like Google Docs.
+Your changes are saved automatically. If another user is viewing this page, they see your changes in real-time — like Google Docs. The cloud icon at the top shows the sync status.
 
 ---
 
