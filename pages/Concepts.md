@@ -13,6 +13,7 @@ Sviter supports three page types:
 - **Markdown** (`.md`) — Text, docs, notes
 - **Data** (`.csv`) — Tables and structured data
 - **View** (`.tsx`) — Custom React components (e.g., [kanban boards](agents/examples/kanban.tsx) example)
+- more to support in future
 
 Every page is stored in git. No database, no metadata files — just files tracked by git.
 
