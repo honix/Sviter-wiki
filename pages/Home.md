@@ -4,11 +4,11 @@
 
 ## Motivation
 
-I work as a developer in a team. Our analytics folks kept documentation in OneNote — messy styles, hard to search, hard to navigate. As devs, we avoided those docs. The knowledge was there, but getting to it felt like a chore.
+As a developer, I've seen this problem firsthand. Our analytics team kept their documentation in a well-known wiki system with inconsistent styles, bloated with old irrelevant information, and nearly impossible to search or navigate efficiently. The knowledge was valuable, but accessing it felt like such a chore that we developers just avoided those docs altogether.
 
-Writers and developers speak different languages. Writers don't know git. Devs don't want to dig through unstructured docs. Everyone loses.
+The root issue? Writers and developers speak different languages. Writers aren't comfortable with git, and developers don't want to wade through unstructured documentation. Meanwhile, we devs also want to document our own systems, and the analytics team frequently asks us for technical details — but the friction of the existing tools means it rarely happens. The result is that everyone loses.
 
-Then I tried Claude Code for a personal design-repo — markdown, AI, git history. Loved it. But I couldn't share it with my team. Git is scary for non-devs. The terminal is scary. It stayed local on my machine.
+I discovered a partial solution when I started using Claude Code for a personal design repo. The combination of markdown, AI assistance, and git history was perfect — I loved it. But I hit a wall when I tried to share it with my team. Git intimidated the non-developers. The command line scared them off. It stayed local on my machine.
 
 So I built Sviter.
 
