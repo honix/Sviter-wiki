@@ -6,14 +6,15 @@ Welcome to the Sviter tutorial. You'll learn by doing — right here on this pag
 
 ## Step 1: Edit a Page
 
-Click on any page in the left panel. Click the **Edit** button to start editing.
+Click on any page in the left panel. Click the **Edit**
 
 **Try it now:**
-1. Click the **Edit** button (top of center panel)
+
+1. Click the **Edit**
 2. Edit the text below — add your name or a word
 3. Click **Save**
 
-> Hello, I am learning Sviter! My name is ___.
+> Hello, I am learning Sviter! My name is NO.
 
 Your changes are saved automatically. If another user is viewing this page, they see your changes in real-time — like Google Docs.
 
@@ -21,9 +22,10 @@ Your changes are saved automatically. If another user is viewing this page, they
 
 ## Step 2: Chat Basics
 
-Look at the **right panel**. That's your AI assistant.
+Look at the **right panel**
 
 **Try it now:**
+
 1. Click the chat input at the bottom of the right panel
 2. Type: `What pages exist in this wiki?`
 3. Press Enter
@@ -31,6 +33,7 @@ Look at the **right panel**. That's your AI assistant.
 The assistant will search the wiki and list all pages. It can read any page and answer questions about the content.
 
 **Try another:**
+
 - `Summarize the Home page`
 - `What is Sviter?`
 
@@ -41,6 +44,7 @@ The assistant will search the wiki and list all pages. It can read any page and 
 You can send specific text to the chat as context.
 
 **Try it now:**
+
 1. Select the sentence below with your mouse
 2. A button appears: **"Add to Chat"**
 3. Click it
@@ -54,7 +58,7 @@ The assistant sees exactly what you selected and can work with it.
 
 ## Step 4: Spawning a Thread
 
-When you want the AI to make actual changes, it spawns a **worker thread**.
+When you want the AI to make actual changes, it spawns a **worker thread**
 
 The thread works on its own branch — your main content stays safe. All AI work will be reviewed by you before it merges.
 
@@ -65,17 +69,19 @@ Select the text below and ask the assistant: `Make this more concise and clear`
 > In order to be able to successfully utilize the functionality of creating new pages, the user must first navigate to the left panel area and then proceed to right-click on the desired location where the new page should be created.
 
 Watch the right panel. You'll see:
-1. A new thread appears in the **Threads** tab
+
+1. A new thread appears in the **Threads**
 2. Status: **WORKING**
-3. When done: **REVIEW** (or **NEED_HELP** if the agent needs clarification or domain knowledge)
+3. When done: **REVIEW**
 
 ---
 
 ## Step 5: Review Changes
 
-Click on the thread (or switch to the **Threads** tab).
+Click on the thread (or switch to the **Threads**
 
-The center panel shows a **diff view**:
+The center panel shows a **diff view**
+
 - Red = removed
 - Green = added
 
@@ -91,6 +97,7 @@ At the bottom of the review, you have two buttons:
 - **Reject** — Discard the branch, keep original
 
 **Try it:**
+
 - If the fix looks good, click **Accept**
 - The typo fix merges into this page
 - Reload to see the result
