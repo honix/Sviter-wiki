@@ -23,7 +23,7 @@ Sviter bridges this gap:
 - **Git hidden** — All the power, none of the complexity
 - **Open source** — FSL-1.1 license (free for production use, no competing products for 2 years, then Apache 2.0)
 - **Pluggable LLM** — Claude Agent SDK or OpenRouter out of the box, easy to add more
-- **On-demand data views** — AI generates custom React components from simple prompts to visualize CSV data with interactive views (see [Concepts](Concepts.md))
+- **On-demand data views** — AI generates custom React components from simple prompts to visualize CSV data with interactive views
 
 
 ## Agents
