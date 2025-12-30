@@ -2,34 +2,36 @@
 
 **Sviter** is an AI-powered wiki where autonomous agents help you build and maintain knowledge — while you stay in control.
 
-## The Problem
+## Motivation
 
-Working as a developer in a team, I noticed a broken communication layer. Our analytics team maintained documentation in tools like OneNote — documents with inconsistent styles, no strict structure, and terrible search. As developers, we avoided diving into those docs. The knowledge was there, but accessing it felt painful.
+I work as a developer in a team. Our analytics folks kept documentation in OneNote — messy styles, hard to search, hard to navigate. As devs, we avoided those docs. The knowledge was there, but getting to it felt like a chore.
 
-This gap between writers and developers creates friction. Writers don't know git. Developers don't want to wade through unstructured docs. Everyone loses.
+Writers and developers speak different languages. Writers don't know git. Devs don't want to dig through unstructured docs. Everyone loses.
 
-Then I tried using Claude Code for a design-repo — markdown files, AI assistance, git history. It was a great experience for me as a developer. But I couldn't share it with the analytics team. Git is a barrier. The terminal is a barrier. It stayed local.
+Then I tried Claude Code for a personal design-repo — markdown, AI, git history. Loved it. But I couldn't share it with my team. Git is scary for non-devs. The terminal is scary. It stayed local on my machine.
+
+So I built Sviter.
 
 ## The Solution
 
 Sviter bridges this gap:
 
 - **AI-powered search** — Chat finds what you need, no digging
-- **Review before merge** — See exactly what changed, accept or reject
+- **Human in the loop** — Review all AI changes before they go live, accept or reject
 - **Real-time collaboration** — Work together like Notion or Google Docs
 - **Version control** — Full history, branch, revert — git under the hood
 - **Git hidden** — All the power, none of the complexity
 - **Open source** — FSL-1.1 license (free for production use, no competing products for 2 years, then Apache 2.0)
 - **Pluggable LLM** — Claude Agent SDK or OpenRouter out of the box, easy to add more
 
-## How It Works
+## Agents
 
-1. **Ask** — Chat with the AI about any topic in the wiki
-2. **Request** — Ask the AI to make changes (spawns an autonomous thread)
-3. **Review** — See exactly what changed in a visual diff
+1. **Ask** — Chat with the AI assistant about any topic in the wiki
+2. **Request** — Ask it to make changes — it spawns an autonomous agent
+3. **Review** — Agent works on its own branch, you see the diff when it's done
 4. **Accept or Reject** — One click to merge or discard
 
-All changes are tracked in git history, but you never have to touch git.
+Agents do the work. You stay in control. Git handles history under the hood.
 
 ---
 
