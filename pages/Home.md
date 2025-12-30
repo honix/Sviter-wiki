@@ -4,7 +4,7 @@
 
 ## Motivation
 
-As a developer, I've seen this problem firsthand. Our analytics team kept their documentation in a well-known wiki system with messy formatting that was difficult to search and impossible to navigate efficiently. The knowledge was valuable, but accessing it felt like such a chore that we developers just avoided those docs altogether.
+As a developer, I've seen this problem firsthand. Our analytics team kept their documentation in a well-known wiki system with inconsistent styles, bloated with old irrelevant information, and nearly impossible to search or navigate efficiently. The knowledge was valuable, but accessing it felt like such a chore that we developers just avoided those docs altogether.
 
 The root issue? Writers and developers speak different languages. Writers aren't comfortable with git, and developers don't want to wade through unstructured documentation. The result is that everyone loses.
 
