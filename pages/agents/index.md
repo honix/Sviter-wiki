@@ -6,6 +6,8 @@ You can edit it but keep this page structure unchanged.
 
 ## Pages
 
+- **[Beyond.md](Beyond.md)** - Vision of the wiki as an Information Operating System
+
 (Add page entries here as the wiki grows)
 
 ## Folders
