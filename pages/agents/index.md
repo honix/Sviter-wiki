@@ -7,8 +7,13 @@ You can edit it but keep this page structure unchanged.
 ## Pages
 
 - **[Beyond.md](Beyond.md)** - Vision of the wiki as an Information Operating System
-
-(Add page entries here as the wiki grows)
+- **[Home.md](Home.md)** - Introduction to Sviter and its motivation
+- **[Getting-Started.md](Getting-Started.md)** - Installation and setup instructions
+- **[Tutorial.md](Tutorial.md)** - Hands-on tutorial for learning Sviter by doing
+- **[User-Guide.md](User-Guide.md)** - Complete reference for all Sviter features
+- **[Concepts.md](Concepts.md)** - Core concepts and how Sviter works under the hood
+- **[Architecture.md](Architecture.md)** - Technical deep dive into Sviter's architecture
+- **[Development.md](Development.md)** - Contributing guide and future development plans
 
 ## Folders
 
