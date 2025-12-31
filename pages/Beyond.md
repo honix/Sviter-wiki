@@ -81,6 +81,59 @@ Documentation can include live examples and interactive tutorials that execute d
 ### From Data to Understanding
 CSV files become source material for visualizations, analytics, and insights that emerge through computational analysis rather than manual inspection.
 
+## Use Cases
+
+### Team Task Management
+
+A team stores tasks in a simple CSV file. From this single data source:
+- **Kanban board view**: Drag-and-drop interface for workflow management
+- **Timeline visualization**: Gantt-style view of task dependencies and schedules
+- **Analytics dashboard**: Completion rates, bottlenecks, team velocity
+
+The agent layer observes patterns across meeting notes, documentation, and journals. It can:
+- Extract action items from meeting notes and create tasks automatically
+- Link tasks to relevant documentation
+- Suggest task breakdowns based on similar past work
+- Identify tasks that reference outdated specifications
+
+All views share the same data source. Change a task in the kanban board, see it update in the timeline. The agent notices a referenced document was updated and flags the task for review.
+
+### Scientific Data Analysis
+
+A researcher has experimental data in CSV format. They request different views:
+- **Scatter plots** with configurable axes
+- **Statistical summaries** with distribution analysis
+- **Correlation matrices** exploring relationships between variables
+- **Time series** tracking changes across experiments
+
+The same dataset, examined from multiple perspectives without creating copies or reformatting data. As the dataset grows (future support for large data sources), the views adapt automatically.
+
+The agent layer here acts differently:
+- Suggests additional visualizations based on data characteristics
+- Identifies outliers or anomalous patterns worth investigating
+- Links to methodology documentation when viewing specific experiments
+- Notices when newer data contradicts older conclusions
+
+### The Librarian Role
+
+Beyond on-demand assistance, agents function as librarians maintaining the collection:
+
+**Proactive maintenance:**
+- Notice when sections reference "TODO" or incomplete areas
+- Identify orphaned documents that nothing links to
+- Suggest connections between related but unlinked content
+- Flag inconsistencies between documents on the same topic
+
+**Structure and cleanliness:**
+- Maintain consistent formatting across similar document types
+- Ensure navigation remains coherent as content grows
+- Archive outdated material rather than letting it clutter active work
+- Question empty spaces in the knowledge structure
+
+An agent might observe: "The architecture document describes a caching layer, but there's no documentation on cache invalidation strategies. Should we add this?" Or: "Three documents mention the authentication flow differently. These should be reconciled."
+
+This is curation at scale—the kind of ongoing attention that keeps a knowledge base functional but that's too tedious for humans to maintain consistently.
+
 ## Design Philosophy
 
 Several principles guide this approach:
