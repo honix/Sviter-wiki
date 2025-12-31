@@ -1,116 +1,128 @@
 # Beyond: The Information Operating System
 
-## A New Paradigm
+## A Different Approach
 
-What if documentation could *think*? What if knowledge didn't just sit there waiting to be read, but actively organized itself, updated itself, and transformed itself to meet your needs? What if information was not a static artifact, but a living, breathing system?
+Documentation typically sits static—written once, slowly drifting out of sync with reality. Knowledge accumulates but doesn't reorganize itself. Data exists in files but doesn't transform to meet new questions.
 
-This wiki is not just a collection of pages. **It's an Information Operating System**—a functional environment where data flows, transforms, and serves you dynamically. Like an operating system manages compute resources, this system manages *knowledge resources*, turning raw information into actionable intelligence.
-
-## Beyond Static Documentation
-
-Traditional documentation is frozen in time—written once, slowly decaying into obsolescence. It's a monument to what was known when it was written, growing less relevant with each passing day.
-
-**The Information Operating System changes everything:**
-
-Instead of documents that decay, you have knowledge that evolves. Instead of reading through pages hoping to find answers, you query a living system. Instead of manually updating specifications when requirements change, AI agents maintain coherence across your entire knowledge base.
-
-This isn't about making documentation "better." It's about transcending documentation entirely.
+This wiki explores a different model: treating information infrastructure the way we treat computing infrastructure. Not as files to manage, but as a system with its own operations, maintenance, and interfaces.
 
 ## The Operating System Metaphor
 
-Think about your computer's operating system. You don't interact with raw bits on disk—the OS provides abstractions, interfaces, and services that make your data useful. It manages resources, handles concurrency, provides APIs, and ensures everything works together.
+An operating system doesn't just store files—it provides abstractions, manages resources, and offers services that make data useful. It handles coordination, ensures coherence, and provides interfaces suited to different needs.
 
-**The Information OS does the same for knowledge:**
+**Applied to information:**
 
-- **Data Layer**: Raw storage (markdown files, CSV data, specifications, domain knowledge)
-- **Processing Layer**: AI agents that maintain, update, and transform information
-- **Interface Layer**: Dynamic views that present information exactly how you need it
-- **Service Layer**: On-demand analysis, visualization, and interactive exploration
+- **Data Layer**: Storage of various types (markdown, CSV, specifications, domain knowledge)
+- **Processing Layer**: Agents that maintain, update, and transform information
+- **Interface Layer**: Dynamic views that present information in different forms
+- **Service Layer**: On-demand analysis, visualization, and exploration
 
-Just as you trust your OS to manage files, processes, and memory, you can trust the Information OS to manage knowledge, coherence, and timeliness.
+The goal is coherence without constant manual intervention. Like an OS maintains filesystem integrity, this system maintains information integrity.
 
-## Key Capabilities
+## Core Capabilities
 
-### 1. Intelligent Data Storage
+### Structured Knowledge Storage
 
-Not just files in folders, but a structured knowledge graph where:
-- **Texts** become searchable, analyzable corpora
-- **Domain knowledge** is organized, cross-referenced, and queryable
-- **Specifications** are living documents that track changes and dependencies
-- **Relationships** between information are maintained automatically
+Information organized not just hierarchically, but relationally:
+- Cross-referenced domain knowledge
+- Specifications that track their dependencies
+- Searchable, queryable text corpora
+- Automatic relationship maintenance
 
-### 2. Dynamic Data Visualization
+### Dynamic Visualization
 
-Data doesn't just sit in CSV files. The Information OS transforms it:
-- **TSX views** turn raw data into interactive dashboards
-- **Real-time updates** as underlying data changes
-- **Custom visualizations** tailored to specific use cases
-- **Drag-and-drop interfaces** for data manipulation
+Data doesn't remain in its storage format. TSX views provide:
+- Interactive dashboards from CSV data
+- Custom visualizations for specific use cases
+- Real-time updates as underlying data changes
+- Programmatic interfaces for data manipulation
 
-Example: A product requirements CSV becomes a Kanban board. A metrics CSV becomes a real-time dashboard. Specifications become interactive explorers.
+A CSV file of tasks can become a kanban board. Metrics become dashboards. Specifications become navigable explorers. The same data, different interfaces.
 
-### 3. AI Agents as System Operators
+### Agent-Based Maintenance
 
-This is where the magic happens. AI agents are the daemon processes of the Information OS:
+AI agents function as system processes:
+- **Maintenance**: Update references, fix links, refresh stale information
+- **Coherence**: Ensure consistency across related documents
+- **Analysis**: Identify patterns, generate insights, flag anomalies
+- **Transformation**: Convert formats, create views, build interfaces
 
-- **Maintenance Agents**: Keep information up-to-date, fix broken links, update references
-- **Coherence Agents**: Ensure consistency across related documents
-- **Analysis Agents**: Generate insights, identify patterns, flag anomalies
-- **Transformation Agents**: Convert information between formats, create views, build dashboards
+These agents don't make editorial decisions, but they handle the mechanical work that keeps a knowledge base functional.
 
-Like system daemons that run silently in the background, these agents ensure your information ecosystem remains healthy, current, and useful.
+### Collaborative Environment
 
-### 4. Collaborative Environment
+A division of labor between human and AI:
+- Humans contribute knowledge and direction
+- Agents handle maintenance and consistency
+- The system learns patterns over time
+- Both work within a shared, evolving structure
 
-The Information OS creates a **human-AI symbiosis**:
-- You focus on creating and using knowledge
-- AI agents handle the tedious work of maintenance and organization
-- Both contribute to a shared, evolving knowledge base
-- The system gets smarter over time as it learns your patterns
+### Programmable Information
 
-### 5. On-Demand Everything
+Information becomes manipulable through code:
+- Generate views on demand
+- Query across documents
+- Transform between representations
+- Embed executable examples
 
-Need a dashboard? Request it. Need analysis? Ask for it. Need a different view of your data? Generate it.
+The wiki itself becomes a platform, not just a collection of pages.
 
-The Information OS doesn't force you into predetermined templates. It's a **programmable knowledge environment** where new capabilities emerge on demand.
+## Practical Implications
 
-## Practical Applications
+### From Specifications to Dashboards
+An API specification can show endpoint usage statistics, track breaking changes over time, or generate client code—all from the same source document.
 
-### Specifications → Living Dashboards
-Your API specification isn't just a document—it's a queryable system that can show you endpoint usage, track breaking changes, and generate client code.
+### From Knowledge to Exploration
+Domain knowledge becomes explorable through relationship graphs, contextual navigation, and dynamic filtering—not just keyword search.
 
-### Knowledge → Interactive Exploration
-Your domain knowledge base isn't just searchable—it's explorable through dynamic visualizations, relationship graphs, and contextual navigation.
+### From Documents to Demonstrations
+Documentation can include live examples and interactive tutorials that execute directly in the page, keeping explanation and implementation synchronized.
 
-### Documents → Functional Interfaces
-Your documentation doesn't just explain—it *demonstrates*. Embed live examples, interactive tutorials, and working code samples directly in the page.
+### From Data to Understanding
+CSV files become source material for visualizations, analytics, and insights that emerge through computational analysis rather than manual inspection.
 
-### Data → Intelligence
-Your CSV files aren't just tables—they're the fuel for dashboards, analytics, visualizations, and insights that emerge through AI-powered analysis.
+## Design Philosophy
 
-## The Vision Forward
+Several principles guide this approach:
 
-Imagine a future where:
-- **Information organizes itself** based on how you use it
-- **Knowledge stays current** through continuous AI maintenance
-- **Documents are programmable** with embedded logic and interactivity
-- **Data tells its own story** through auto-generated visualizations
-- **Your wiki becomes smarter** the more you use it
+1. **Information should adapt to questions**, not the other way around
+2. **Maintenance should be automated** where mechanical, human where judgmental
+3. **Same data, multiple interfaces** - storage and presentation are separate concerns
+4. **Coherence through systems** - consistency emerges from process, not heroic effort
+5. **Progressive enhancement** - start with simple storage, add capabilities as needed
 
-This is not science fiction. This is the Information Operating System—built on markdown, CSV, TSX, and AI agents—running right now.
+## Current Implementation
+
+This wiki implements these ideas through:
+- Markdown for base content (human-readable, version-controllable)
+- CSV for structured data (simple, tool-agnostic)
+- TSX for dynamic views (programmable, interactive)
+- AI agents for maintenance (automated, continuous)
+
+The stack is deliberately simple. Complexity lives in the coordination, not the components.
+
+## Open Questions
+
+This approach raises interesting questions:
+
+- How do we balance automated maintenance with human control?
+- What's the right division of labor between agents and humans?
+- How do we prevent AI agents from reinforcing errors?
+- What governance structures work for evolving knowledge?
+- How do we verify agent-maintained information remains accurate?
+
+These aren't solved problems. They're active areas of exploration.
 
 ## Getting Started
 
-The transformation begins simply:
-1. Store your knowledge as usual (markdown, CSV, text)
-2. Request dynamic views when you need them (TSX dashboards)
-3. Let AI agents handle maintenance and updates
-4. Watch your static documentation become a living system
+The transformation is gradual:
+1. Store information in standard formats (markdown, CSV)
+2. Request dynamic views when static pages aren't sufficient
+3. Let agents handle mechanical maintenance tasks
+4. Observe what emerges from this infrastructure
 
-See [Getting-Started.md](Getting-Started.md) to begin your journey beyond documentation.
+See [Getting-Started.md](Getting-Started.md) for practical next steps.
 
 ---
 
-*The Information Operating System represents a fundamental shift in how we think about knowledge management. We're not just storing information better—we're creating a new kind of system where information becomes functional, dynamic, and intelligent.*
-
-*Welcome to the future of knowledge work.*
+*The Information Operating System represents a shift from managing documents to managing a knowledge infrastructure. The goal isn't to automate thinking, but to automate the maintenance that keeps thinking possible.*
