@@ -51,9 +51,9 @@ A few examples of how Sviter can help:
 
 ## Quick Links
 
-- [Getting Started](Getting-Started) — Set up and run Sviter
-- [Tutorial](Tutorial) — Interactive walkthrough (learn by doing)
-- [Concepts](Concepts) — Understand threads, branches, and the review workflow
-- [User Guide](User-Guide) — Feature reference
-- [Architecture](Architecture) — Technical deep dive
-- [Development](Development) — Contributing & future vision
+- [Getting Started](Getting-Started.md) — Set up and run Sviter
+- [Tutorial](Tutorial.md) — Interactive walkthrough (learn by doing)
+- [Concepts](Concepts.md) — Understand threads, branches, and the review workflow
+- [User Guide](User-Guide.md) — Feature reference
+- [Architecture](Architecture.md) — Technical deep dive
+- [Development](Development.md) — Contributing & future vision

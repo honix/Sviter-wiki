@@ -241,4 +241,4 @@ Handles:
 ## Next
 
 - [Beyond](Beyond.md) — Vision of Sviter as an Information Operating System
-- [Development](Development) — Contributing guide
+- [Development](Development.md) — Contributing guide

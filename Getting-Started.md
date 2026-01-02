@@ -76,5 +76,5 @@ Sviter has a 3-panel layout:
 
 ## Next Steps
 
-- [Tutorial](Tutorial) — Learn by doing (interactive walkthrough)
-- [Concepts](Concepts) — Understand how Sviter works
+- [Tutorial](Tutorial.md) — Learn by doing (interactive walkthrough)
+- [Concepts](Concepts.md) — Understand how Sviter works

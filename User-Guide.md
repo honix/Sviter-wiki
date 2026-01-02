@@ -180,5 +180,5 @@ When users are actively editing a page:
 
 ## Next
 
-- [Architecture](Architecture) — How it's built
-- [Development](Development) — Contributing
+- [Architecture](Architecture.md) — How it's built
+- [Development](Development.md) — Contributing

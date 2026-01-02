@@ -120,5 +120,5 @@ Git handles everything under the hood. You never have to touch it.
 
 ## Next Steps
 
-- [Concepts](Concepts) — Deeper understanding of threads and branches
-- [User Guide](User-Guide) — Full feature reference
+- [Concepts](Concepts.md) — Deeper understanding of threads and branches
+- [User Guide](User-Guide.md) — Full feature reference

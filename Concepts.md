@@ -137,5 +137,5 @@ All history is preserved. You can always go back.
 
 ## Next
 
-- [User Guide](User-Guide) — Detailed feature reference
-- [Architecture](Architecture) — Technical implementation
+- [User Guide](User-Guide.md) — Detailed feature reference
+- [Architecture](Architecture.md) — Technical implementation
