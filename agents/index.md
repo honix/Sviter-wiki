@@ -39,7 +39,7 @@ When creating a new page:
 
 ## Creating Interactive Views
 
-For TSX views or CSV data files, see [agents/data-views.md](page:agents/data-views.md) for:
+For TSX views or CSV data files, see [data-views.md](data-views.md) for:
 - Available hooks (`useCSV`, `usePage`, `useComponent`)
 - UI components (Button, Card, Table, etc.)
 - Working examples in `agents/examples/`
