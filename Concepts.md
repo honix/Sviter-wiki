@@ -129,7 +129,13 @@ This workflow keeps humans in control while letting AI do the heavy lifting.
 
 You never have to use git directly, but here's what happens:
 
-| Action | Git Operation | |--------|--------------| | Edit a page | `git commit` on current branch | | Spawn thread | `git checkout -b thread/...` | | Thread edits | `git commit` on thread branch | | Accept | `git merge` to main | | Reject | `git branch -D` |
+| Action | Git Operation |
+|--------|--------------|
+| Edit a page | `git commit` on current branch |
+| Spawn thread | `git checkout -b thread/...` |
+| Thread edits | `git commit` on thread branch |
+| Accept | `git merge` to main |
+| Reject | `git branch -D` |
 
 All history is preserved. You can always go back.
 
