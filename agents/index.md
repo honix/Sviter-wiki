@@ -7,6 +7,7 @@ You can edit it but keep this page structure unchanged.
 ## Pages
 
 - **[Beyond.md](Beyond.md)** - Vision of the wiki as an Information Operating System
+- **[Threads.md](Threads.md)** - Threads as collaborative projects (people + AI)
 - **[Home.md](Home.md)** - Introduction to Sviter and its motivation
 - **[Getting-Started.md](Getting-Started.md)** - Installation and setup instructions
 - **[Tutorial.md](Tutorial.md)** - Hands-on tutorial for learning Sviter by doing
