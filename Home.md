@@ -25,7 +25,6 @@ Sviter bridges this gap:
 - **Pluggable LLM** — Claude Agent SDK or OpenRouter out of the box, easy to add more
 - **On-demand data views** — AI generates custom React components from simple prompts to visualize CSV data with interactive views
 
-
 ## Agents
 
 1. **Ask** — Chat with the AI assistant about any topic in the wiki
