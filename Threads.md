@@ -19,13 +19,15 @@ Threads are **little projects** — spaces where people and AI work together to 
 
 ## Creating a Thread
 
-User creates threads directly:
+Type your message and click the pink **Start thread** button (branch icon). Your message becomes the first message in the thread.
+
+You can @mention participants to invite them:
 
 ```
-/thread auth-refactor @georg @lisa
+Let's refactor the auth module @georg @lisa
 ```
 
-This creates a shared space where participants discuss and work toward a change. The assistant might suggest creating a thread, but doesn't create it automatically — the decision stays with you.
+This creates a shared space where participants discuss and work toward a change.
 
 ---
 
@@ -46,26 +48,17 @@ No rigid state machine. The conversation flows naturally.
 
 ## AI as Participant
 
-The AI doesn't dominate the conversation. A simple prompt guides this:
+The AI adapts to the conversation:
 
-```
-You are a participant in a collaborative thread.
-Don't respond to every message.
-Speak when:
-- Directly addressed (@ai)
-- You can clarify ambiguity
-- Task is clear and you're ready to propose changes
-- Asked a direct question
-
-Otherwise, observe. Humans are discussing.
-```
+- **When you're alone with it** — Active, drives the task forward
+- **When multiple people are discussing** — Listens more, speaks when addressed
 
 It:
 
 - **Speaks when addressed** — "@ai what do you think?"
 - **Speaks when useful** — To clarify ambiguity or propose action
 - **Stays silent** — When humans are discussing among themselves
-- **Asks questions** — When the goal isn't clear enough to act
+- **Updates status** — So everyone knows what's happening
 
 ```
 georg: thinking we need to restructure the auth module
@@ -79,32 +72,34 @@ ai: I can split auth.md into separate login.md and registration.md pages.
 georg: simplify
 lisa: agreed
 
-ai: [proposes changes]
+ai: [proposes changes, sets status to "Done - ready to merge"]
 ```
 
 The AI observes, waits for the right moment, then acts.
 
 ---
 
-## Organic Approval
+## Accepting Changes
 
-No buttons required. The AI reads consensus:
+When changes are ready, click **Accept** to merge them to main.
+
+The AI reads approval signals from the conversation:
 
 ```
 georg: looks good
 lisa: 👍
 
-ai: Both approved. Applying changes.
+ai: [makes the changes, sets status to "Done - ready to merge"]
 ```
 
 Or explicit:
 
 ```
 lisa: @ai go ahead
-ai: Applied. ✓
+ai: [applies changes] ✓
 ```
 
-Reject is just... not approving. The thread stays open, discussion continues.
+No reject button. If you don't like the changes, just keep discussing. The thread stays open until you're happy and click Accept.
 
 ---
 
@@ -130,7 +125,7 @@ But you don't need to think about git. The branch is just isolation — a safety
 Your **inbox** is simply: threads that need your attention.
 
 **You get notified when:**
-- Added to a thread — `/thread feature @you`
+- Added to a thread — `@you` in the first message
 - Mentioned — `@you what do you think?`
 - AI asks you directly — `@you can you clarify X?`
 - Thread is waiting on your input
